@@ -1,0 +1,10 @@
+echo "# Website" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/wongyt2008/Website.git
+git push -u origin master
+
+Push Existing Repo
+git remote add origin https://github.com/wongyt2008/Website.git
+git push -u origin master
